@@ -1,0 +1,40 @@
+.inputPlus {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 60px;
+  margin-bottom: 1rem;
+  &Value {
+    border: 1px solid var(--border-color);
+    border-top-left-radius: var(--border-radius);
+    border-bottom-left-radius: var(--border-radius);
+    outline: 1px solid var(--blue-color);
+    padding: 9px 10px;
+    font: 1rem/1.4 'Comfortaa', 'Roboto', sans-serif;
+    background: var(--bg-grey);
+    &::placeholder {
+      color: var(--placeholder);
+    }
+  }
+
+  &Button {
+    border-radius: none;
+    -webkit-border-radius: none;
+    -moz-border-radius: none;
+    -ms-border-radius: none;
+    -o-border-radius: none;
+    border: none;
+    border-top-right-radius: var(--border-radius);
+    border-bottom-right-radius: var(--border-radius);
+    cursor: pointer;
+    background: var(--bg-color) url('./images/plus.svg') no-repeat center center;
+    transition: opacity 0.3s ease;
+    -webkit-transition: opacity 0.3s ease;
+    -moz-transition: opacity 0.3s ease;
+    -ms-transition: opacity 0.3s ease;
+    -o-transition: opacity 0.3s ease;
+
+    &:hover {
+      opacity: 0.7;
+    }
+  }
+}

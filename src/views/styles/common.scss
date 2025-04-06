@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&family=Roboto:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root {
+  --bg-color: #3f72af;
+  --bg-white: #ffffff;
+  --bg-grey: #dbe2ef;
+  --placeholder: #7b7b7b;
+  --blue-color: #3f72af;
+  --text-color: #141212;
+  --checkbox: #434343;
+  --checkbox-checked: rgba(63, 114, 175, 0.5);
+  --chekbox-disabled: #b1b1b1;
+  --border-color: #b1b1b1;
+  --border-radius: 6px;
+}
+
+body {
+  font: 16px/1.4 'Comfortaa', 'Roboto', sans-serif;
+  background: var(--bg-color);
+  color: var(--text-color);
+  min-height: 100vh;
+  padding: 1rem;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
