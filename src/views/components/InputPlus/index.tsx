@@ -15,7 +15,7 @@ export const InputPlus: React.FC<InputPlusProps> = ({ onAdd }) => {
       <input
         className={styles.inputPlusValue}
         type='text'
-        value={inputValue}
+        value={inputValue.trim()}
         onChange={(e) => {
           setInputValue(e.target.value);
         }}

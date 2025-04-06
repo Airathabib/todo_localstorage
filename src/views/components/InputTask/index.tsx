@@ -45,7 +45,7 @@ export const InputTask: React.FC<InputTaskProps> = ({
           <input
             className={styles.inputTaskEditTitle}
             ref={editTitleInputRef}
-            value={value}
+            value={value.trim()}
             onChange={(e) => {
               setValue(e.target.value);
             }}
